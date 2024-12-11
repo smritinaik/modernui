@@ -1,3 +1,77 @@
+// "use client";
+
+// import Image from "next/image";
+// import React from "react";
+// import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+
+// function RecentProjects() {
+//     return (
+//         <CardContainer className="inter-var grid grid-cols-1 md:grid-cols-3 gap-2">
+//             {/* Cards */}
+//             {[...Array(6)].map((_, index) => (
+//                 <div className="p-2" key={index}>
+//                     <CardBody
+//                         className="bg-gray-50 relative group/card 
+//                             dark:hover:shadow-lg dark:hover:shadow-blue-900/[0.4] 
+//                             dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+//                             w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+//                             sm:transform-gpu sm:perspective-1000 hover:scale-102 
+//                             sm:hover:translateZ-[15px]">
+//                         <CardItem
+//                             translateZ="10"
+//                             className="text-lg font-bold text-neutral-600 dark:text-white"
+//                         >
+//                             Make things float in air
+//                         </CardItem>
+//                         <CardItem
+//                             as="p"
+//                             translateZ="5"
+//                             className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
+//                         >
+//                             Hover over this card to unleash the power of CSS perspective
+//                         </CardItem>
+//                         <CardItem
+//                             translateZ="20"
+//                             rotateX={10}
+//                             rotateZ={-5}
+//                             className="w-full mt-4"
+//                         >
+//                             <Image
+//                                 src="/cardimg.jpg"
+//                                 height="600"
+//                                 width="600"
+//                                 className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+//                                 alt="thumbnail"
+//                             />
+//                         </CardItem>
+//                         <div className="flex justify-between items-center mt-10">
+//                             <CardItem
+//                                 translateZ={10}
+//                                 translateX={-10}
+//                                 as="button"
+//                                 className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
+//                             >
+//                                 Try now →
+//                             </CardItem>
+//                             <CardItem
+//                                 translateZ={10}
+//                                 translateX={10}
+//                                 as="button"
+//                                 className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+//                             >
+//                                 Sign up
+//                             </CardItem>
+//                         </div>
+
+                        
+//                     </CardBody>
+//                 </div>
+//             ))}
+//         </CardContainer>
+//     );
+// }
+
+// export default RecentProjects;
 "use client";
 
 import Image from "next/image";
@@ -6,56 +80,57 @@ import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 function RecentProjects() {
     return (
-        <CardContainer className="inter-var grid grid-cols-1 md:grid-cols-2 gap-4">
-              {/* card   1 */}
-            <div className="p-4">
-                <CardBody className="bg-gray-50 relative group/card 
-                    dark:hover:shadow-2xl dark:hover:shadow-blue-900/[0.6] 
-                    dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                    w-auto sm:w-[30rem] h-auto rounded-xl p-6 border 
-                    sm:transform-gpu sm:perspective-1000 hover:scale-105 
-                    sm:hover:translateZ-[30px]">
+        <CardContainer className="inter-var grid grid-cols-1 md:grid-cols-3 gap-2">
+            {/* Card 1 */}
+            <div className="p-2">
+                <CardBody
+                    className="bg-gray-50 relative group/card 
+                        dark:hover:shadow-lg dark:hover:shadow-blue-900/[0.4] 
+                        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+                        w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+                        sm:transform-gpu sm:perspective-1000 hover:scale-102 
+                        sm:hover:translateZ-[15px]">
                     <CardItem
-                        translateZ="20"
-                        className="text-xl font-bold text-neutral-600 dark:text-white"
+                        translateZ="10"
+                        className="text-lg font-bold text-neutral-600 dark:text-white"
                     >
-                        Make things float in air
+                        Project 1
                     </CardItem>
                     <CardItem
                         as="p"
-                        translateZ="10"
-                        className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                        translateZ="5"
+                        className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                     >
-                        Hover over this card to unleash the power of CSS perspective
+                        Description for project 1.
                     </CardItem>
                     <CardItem
-                        translateZ="50"
-                        rotateX={20}
-                        rotateZ={-10}
+                        translateZ="20"
+                        rotateX={10}
+                        rotateZ={-5}
                         className="w-full mt-4"
                     >
                         <Image
                             src="/cardimg.jpg"
-                            height="1000"
-                            width="1000"
-                            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                            alt="thumbnail"
+                            height="600"
+                            width="600"
+                            className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+                            alt="Project 1"
                         />
                     </CardItem>
-                    <div className="flex justify-between items-center mt-20">
+                    <div className="flex justify-between items-center mt-10">
                         <CardItem
-                            translateZ={20}
-                            translateX={-40}
+                            translateZ={10}
+                            translateX={-10}
                             as="button"
-                            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                            className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
                             Try now →
                         </CardItem>
                         <CardItem
-                            translateZ={20}
-                            translateX={40}
+                            translateZ={10}
+                            translateX={10}
                             as="button"
-                            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                            className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
                             Sign up
                         </CardItem>
@@ -63,57 +138,56 @@ function RecentProjects() {
                 </CardBody>
             </div>
 
-
-
-            {/* card 2 */}
-            <div className="p-4">
-                <CardBody className="bg-gray-50 relative group/card 
-                    dark:hover:shadow-2xl dark:hover:shadow-blue-900/[0.6] 
-                    dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                    w-auto sm:w-[30rem] h-auto rounded-xl p-6 border 
-                    sm:transform-gpu sm:perspective-1000 hover:scale-105 
-                    sm:hover:translateZ-[30px]">
+            {/* Card 2 */}
+            <div className="p-2">
+                <CardBody
+                    className="bg-gray-50 relative group/card 
+                        dark:hover:shadow-lg dark:hover:shadow-blue-900/[0.4] 
+                        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+                        w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+                        sm:transform-gpu sm:perspective-1000 hover:scale-102 
+                        sm:hover:translateZ-[15px]">
                     <CardItem
-                        translateZ="20"
-                        className="text-xl font-bold text-neutral-600 dark:text-white"
+                        translateZ="10"
+                        className="text-lg font-bold text-neutral-600 dark:text-white"
                     >
-                        Make things float in air
+                        Project 2
                     </CardItem>
                     <CardItem
                         as="p"
-                        translateZ="10"
-                        className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                        translateZ="5"
+                        className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                     >
-                        Hover over this card to unleash the power of CSS perspective
+                        Description for project 2.
                     </CardItem>
                     <CardItem
-                        translateZ="50"
-                        rotateX={20}
-                        rotateZ={-10}
+                        translateZ="20"
+                        rotateX={10}
+                        rotateZ={-5}
                         className="w-full mt-4"
                     >
                         <Image
                             src="/cardimg2.webp"
-                            height="1000"
-                            width="1000"
-                            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                            alt="thumbnail"
+                            height="600"
+                            width="600"
+                            className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+                            alt="Project 2"
                         />
                     </CardItem>
-                    <div className="flex justify-between items-center mt-20">
+                    <div className="flex justify-between items-center mt-10">
                         <CardItem
-                            translateZ={20}
-                            translateX={-40}
+                            translateZ={10}
+                            translateX={-10}
                             as="button"
-                            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                            className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
                             Try now →
                         </CardItem>
                         <CardItem
-                            translateZ={20}
-                            translateX={40}
+                            translateZ={10}
+                            translateX={10}
                             as="button"
-                            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                            className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
                             Sign up
                         </CardItem>
@@ -121,57 +195,57 @@ function RecentProjects() {
                 </CardBody>
             </div>
 
-
-
-            {/* card 3  */}
-            <div className="p-4">
-                <CardBody className="bg-gray-50 relative group/card 
-                    dark:hover:shadow-2xl dark:hover:shadow-blue-900/[0.6] 
-                    dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                    w-auto sm:w-[30rem] h-auto rounded-xl p-6 border 
-                    sm:transform-gpu sm:perspective-1000 hover:scale-105 
-                    sm:hover:translateZ-[30px]">
+            {/* Add additional cards manually following the same structure */}
+            {/* Card 3 */}
+            <div className="p-2">
+                <CardBody
+                    className="bg-gray-50 relative group/card 
+                        dark:hover:shadow-lg dark:hover:shadow-blue-900/[0.4] 
+                        dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
+                        w-auto sm:w-[18rem] h-auto rounded-lg p-4 border 
+                        sm:transform-gpu sm:perspective-1000 hover:scale-102 
+                        sm:hover:translateZ-[15px]">
                     <CardItem
-                        translateZ="20"
-                        className="text-xl font-bold text-neutral-600 dark:text-white"
+                        translateZ="10"
+                        className="text-lg font-bold text-neutral-600 dark:text-white"
                     >
-                        Make things float in air
+                        Project 3
                     </CardItem>
                     <CardItem
                         as="p"
-                        translateZ="10"
-                        className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                        translateZ="5"
+                        className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                     >
-                        Hover over this card to unleash the power of CSS perspective
+                        Description for project 3.
                     </CardItem>
                     <CardItem
-                        translateZ="50"
-                        rotateX={20}
-                        rotateZ={-10}
+                        translateZ="20"
+                        rotateX={10}
+                        rotateZ={-5}
                         className="w-full mt-4"
                     >
                         <Image
                             src="/cardimg3.webp"
-                            height="1000"
-                            width="1000"
-                            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                            alt="thumbnail"
+                            height="600"
+                            width="600"
+                            className="h-40 w-full object-cover rounded-lg group-hover/card:shadow-md"
+                            alt="Project 3"
                         />
                     </CardItem>
-                    <div className="flex justify-between items-center mt-20">
+                    <div className="flex justify-between items-center mt-10">
                         <CardItem
-                            translateZ={20}
-                            translateX={-40}
+                            translateZ={10}
+                            translateX={-10}
                             as="button"
-                            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                            className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
                             Try now →
                         </CardItem>
                         <CardItem
-                            translateZ={20}
-                            translateX={40}
+                            translateZ={10}
+                            translateX={10}
                             as="button"
-                            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                            className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
                             Sign up
                         </CardItem>
@@ -179,70 +253,7 @@ function RecentProjects() {
                 </CardBody>
             </div>
 
-
-
-
-
-            {/* card   4 */}
-            <div className="p-4">
-                <CardBody className="bg-gray-50 relative group/card 
-                    dark:hover:shadow-2xl dark:hover:shadow-blue-900/[0.6] 
-                    dark:bg-black dark:border-white/[0.2] border-black/[0.1] 
-                    w-auto sm:w-[30rem] h-auto rounded-xl p-6 border 
-                    sm:transform-gpu sm:perspective-1000 hover:scale-105 
-                    sm:hover:translateZ-[30px]">
-                    <CardItem
-                        translateZ="20"
-                        className="text-xl font-bold text-neutral-600 dark:text-white"
-                    >
-                        Make things float in air
-                    </CardItem>
-                    <CardItem
-                        as="p"
-                        translateZ="10"
-                        className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-                    >
-                        Hover over this card to unleash the power of CSS perspective
-                    </CardItem>
-                    <CardItem
-                        translateZ="50"
-                        rotateX={20}
-                        rotateZ={-10}
-                        className="w-full mt-4"
-                    >
-                        <Image
-                            src="/cardimg4.webp"
-                            height="1000"
-                            width="1000"
-                            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                            alt="thumbnail"
-                        />
-                    </CardItem>
-                    <div className="flex justify-between items-center mt-20">
-                        <CardItem
-                            translateZ={20}
-                            translateX={-40}
-                            as="button"
-                            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                        >
-                            Try now →
-                        </CardItem>
-                        <CardItem
-                            translateZ={20}
-                            translateX={40}
-                            as="button"
-                            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                        >
-                            Sign up
-                        </CardItem>
-                    </div>
-                </CardBody>
-            </div>
-
-
-
-
-
+            
         </CardContainer>
     );
 }

@@ -5,10 +5,10 @@ import { SparklesCore } from "@/components/ui/sparkles";
 function UnderSpck() {
   return (
 <div className="h-[30rem] w-full bg-black-100 flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
-        Aceternity
+      <h1 className="md:text-6xl text-2xl lg:text-5xl font-bold text-center text-white relative z-20">
+      Transform ideas into stunning realities.
       </h1>
-      <div className="w-[25rem] h-90 relative">
+      <div className="w-[50rem] h-10 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[6px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-9/4" />
@@ -18,9 +18,9 @@ function UnderSpck() {
         {/* Core component */}
         <SparklesCore
           background="transparent"
-          minSize={0.9}
-          maxSize={1}
-          particleDensity={150}
+          minSize={0.1}
+          maxSize={2}
+          particleDensity={190}
           className="w-full h-10"
           particleColor="#FFFFFF"
         />

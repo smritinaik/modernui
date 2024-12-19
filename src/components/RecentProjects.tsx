@@ -8,7 +8,7 @@ function RecentProjects() {
     return (
         <main className="bg-black">
             <div className="flex flex-col gap-15 max-w-4xl mx-auto mc-10">
-            <h3 className='text-center mt-20 md:mt-0 text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-900'>3 STEPS</h3>
+            <h3 className='text-center mt-20 md:mt-0 text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-900'>Begin Your Journey</h3>
             </div>
         <CardContainer className="inter-var grid grid-cols-1 md:grid-cols-3 gap-3">
             {/* Card 1 */}
@@ -24,14 +24,14 @@ function RecentProjects() {
                         translateZ="10"
                         className="text-lg font-bold text-neutral-600 dark:text-white"
                     >
-                        Project 1
+                        Elevate Your Basics
                     </CardItem>
                     <CardItem
                         as="p"
                         translateZ="5"
                         className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                     >
-                        Description for project 1.
+                       Discover the fundamentals of UI design 
                     </CardItem>
                     <CardItem
                         translateZ="20"
@@ -54,7 +54,7 @@ function RecentProjects() {
                             as="button"
                             className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
-                            Try now →
+                            learn more →
                         </CardItem>
                         <CardItem
                             translateZ={10}
@@ -62,7 +62,7 @@ function RecentProjects() {
                             as="button"
                             className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
-                            Sign up
+                            Get Started
                         </CardItem>
                     </div>
                 </CardBody>
@@ -81,14 +81,14 @@ function RecentProjects() {
                         translateZ="10"
                         className="text-lg font-bold text-neutral-600 dark:text-white"
                     >
-                        Project 2
+                        Innovate with Design
                     </CardItem>
                     <CardItem
                         as="p"
                         translateZ="5"
                         className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                     >
-                        Description for project 2.
+                        Dive deeper into innovative UI principles.
                     </CardItem>
                     <CardItem
                         translateZ="20"
@@ -111,7 +111,7 @@ function RecentProjects() {
                             as="button"
                             className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
-                            Try now →
+                            learn more →
                         </CardItem>
                         <CardItem
                             translateZ={10}
@@ -119,7 +119,7 @@ function RecentProjects() {
                             as="button"
                             className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
-                            Sign up
+                            Get Started
                         </CardItem>
                     </div>
                 </CardBody>
@@ -139,14 +139,14 @@ function RecentProjects() {
                         translateZ="10"
                         className="text-lg font-bold text-neutral-600 dark:text-white"
                     >
-                        Project 3
+                        Master Advanced Techniques
                     </CardItem>
                     <CardItem
                         as="p"
                         translateZ="5"
                         className="text-neutral-500 text-xs max-w-xs mt-2 dark:text-neutral-300"
                     >
-                        Description for project 3.
+                        Next start working on complex UI projects
                     </CardItem>
                     <CardItem
                         translateZ="20"
@@ -169,7 +169,7 @@ function RecentProjects() {
                             as="button"
                             className="px-3 py-1 rounded-lg text-xs font-normal dark:text-white"
                         >
-                            Try now →
+                            learn more →
                         </CardItem>
                         <CardItem
                             translateZ={10}
@@ -177,7 +177,7 @@ function RecentProjects() {
                             as="button"
                             className="px-3 py-1 rounded-lg bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                         >
-                            Sign up
+                            Get Started
                         </CardItem>
                     </div>
                 </CardBody>

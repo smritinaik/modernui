@@ -24,7 +24,7 @@ export const GoogleGeminiEffect = ({
     <div className={cn("sticky top-5", className)}>
       {/* header sticky text */}
       <div className="flex flex-col gap-15 max-w-4xl mx-auto mc-10">
-            <h3 className='text-center mt-20 md:mt-0 text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-900'>DIVE DEEPER IN UI</h3>
+            <h3 className='text-center mt-20 md:mt-0 text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-900'>Unlock the World of UI</h3>
        </div>
       <div className="w-full h-[890px] -top-60 md:-top-40  flex items-center justify-center bg-red-transparent absolute ">
         <button className="font-bold bg-white rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-24 mt-8 z-30 md:text-base text-black text-xs  w-fit mx-auto ">

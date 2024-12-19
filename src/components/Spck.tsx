@@ -22,10 +22,10 @@ export function SparklesPreview() {
             <div className='p-4 relative z-10 w-full text-center'>
                 <h1
                     className='mt-20 md:mt-0 text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-900'
-                >Master the art of modern Ui </h1>
+                >Master the art of modern UI </h1>
                 <p
                 className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'
-                >Dive into the art of ui development where ideas meet creation , in real world application with modern Ui so lets start the development now .. thankyou</p>
+                >Unleash your creativity and bring ideas to life with cutting-edge UI development. Learn to craft real-world applications that blend functionality with aesthetics.</p>
             </div>
 
         </div>

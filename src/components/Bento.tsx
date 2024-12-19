@@ -56,44 +56,44 @@ const items = [
   {
     title: "The Future of Technology",
     description: "Dive into emerging technologies shaping the future, from AI",
-    header: <ItemImage src="/cardimg.jpg" href = ""/>,
+    header: <ItemImage src="/ai.webp" href = ""/>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: " The Human Connection",
     description: "Explore the power of collaboration in the digital era.",
-    header: <ItemImage src="/cardimg.jpg" href = ""/>,
+    header: <ItemImage src="/colab.jpg" href = ""/>,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Sustainability in Design",
     description: "Learn eco-friendly and sustainable approaches in modern development .",
-    header: <ItemImage src="/cardimg.jpg" href = ""/>,
+    header: <ItemImage src="/modern.webp" href = ""/>,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: " Immersive Experiences",
     description:
       "Experience the magic of AR, VR, and interactive media transforming user engagement.",
-      header: <ItemImage src="/cardimg.jpg" href = ""/>,
+      header: <ItemImage src="/arvr.jpg" href = ""/>,
       icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: " The Art of Minimalism",
     description: "Understand how simplicity in design can create powerful and intuitive user experiences.",
-    header: <ItemImage src="/cardimg.jpg" href = ""/>,
+    header: <ItemImage src="/ux.jpg" href = ""/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Empowering Innovations",
     description: "Discover projects and ideas that inspire change and elevate everyday life.",
-    header: <ItemImage src="/cardimg.jpg" href = ""/>,
+    header: <ItemImage src="/innovativ.png" href = ""/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Creativity Unleashed",
     description: "Discover how innovation and design fuel creative solutions for real-world challenges.",
-    header: <ItemImage src="/cardimg.jpg" href = ""/>,
+    header: <ItemImage src="/crevti.jpeg" href = ""/>,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];

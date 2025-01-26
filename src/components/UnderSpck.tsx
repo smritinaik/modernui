@@ -6,7 +6,7 @@ function UnderSpck() {
   return (
 <div className="h-[30rem] w-full bg-black-100 flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-6xl text-2xl lg:text-5xl font-bold text-center text-white relative z-20">
-      Transform ideas into stunning realities.
+      Transform ideas to reality
       </h1>
       <div className="w-[50rem] h-10 relative">
         {/* Gradients */}

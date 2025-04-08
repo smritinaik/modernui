@@ -1,6 +1,5 @@
 import Bento from "@/components/Bento";
 import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
 import RecentProjects from "@/components/RecentProjects";
 import Screfft from "@/components/Screfft";
 import { SparklesPreview } from "@/components/Spck";

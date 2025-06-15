@@ -40,11 +40,11 @@ function ItemImage({ src, href }: { src: string; href: string }) {
       className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden"
     >
       <Image
-      className="h-full w-full object-cover"
-      width={500}
-      height = {500}
-      src={src ?? ""}
-      alt="project-img"
+        className="h-full w-full object-cover"
+        width={500}
+        height={500}
+        src={src ?? ""}
+        alt="project-img"
       />
     </Link>
   );
@@ -55,44 +55,44 @@ const items = [
   {
     title: "The Future of Technology",
     description: "Dive into emerging technologies shaping the future, from AI",
-    header: <ItemImage src="/ai.webp" href = ""/>,
+    header: <ItemImage src="/ai.webp" href="" />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: " The Human Connection",
     description: "Explore the power of collaboration in the digital era.",
-    header: <ItemImage src="/colab.jpg" href = ""/>,
+    header: <ItemImage src="/colab.jpg" href="" />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Sustainability in Design",
     description: "Learn eco-friendly and sustainable approaches in modern development .",
-    header: <ItemImage src="/modern.webp" href = ""/>,
+    header: <ItemImage src="/modern.webp" href="" />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: " Immersive Experiences",
     description:
       "Experience the magic of AR, VR, and interactive media transforming user engagement.",
-      header: <ItemImage src="/arvr.jpg" href = ""/>,
-      icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    header: <ItemImage src="/arvr.jpg" href="" />,
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: " The Art of Minimalism",
     description: "Understand how simplicity in design can create powerful and intuitive user experiences.",
-    header: <ItemImage src="/ux.jpg" href = ""/>,
+    header: <ItemImage src="/ux.jpg" href="" />,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Empowering Innovations",
     description: "Discover projects and ideas that inspire change and elevate everyday life.",
-    header: <ItemImage src="/innovativ.png" href = ""/>,
+    header: <ItemImage src="/innovativ.png" href="" />,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Creativity Unleashed",
     description: "Discover how innovation and design fuel creative solutions for real-world challenges.",
-    header: <ItemImage src="/crevti.jpeg" href = ""/>,
+    header: <ItemImage src="/crevti.jpeg" href="" />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];
